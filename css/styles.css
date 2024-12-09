@@ -637,9 +637,12 @@ address{
     background-color: #fff;
 }
 
+.employee{
+    padding: 32px 0;
+}
+
 .third-list-titles{
     margin-bottom: 8px;
-    margin-top: 32px;
 
     font-weight: 500;
     font-size: 20px;
@@ -918,7 +921,7 @@ address{
 
 .logo-text{
     text-align: center;
-    margin-bottom: 72px;
+    padding-bottom: 72px;
 
     font-weight: 400;
     font-size: 16px;
@@ -931,7 +934,7 @@ address{
     .logo-text{
         text-align: left;
         max-width: 264px;
-        margin-bottom: 0;
+        padding-bottom: 0;
     }
 }
 
@@ -966,12 +969,12 @@ address{
     align-items: center;
     justify-content: center;
 
-    margin-bottom: 72px;
+    padding-bottom: 72px;
 }
 
 @media screen and (min-width: 768px){
     .footer-social-list{
-        margin-bottom: 0;
+        padding-bottom: 0;
     }
 }
 
